@@ -1,0 +1,51 @@
+main {
+  display: flex;
+
+}
+
+.form h2,
+.ulasan h2{
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.ulasan {
+  flex: 1;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.form {
+  flex: 1;
+   margin-top: 90px;
+}
+
+.ulasan-item {
+  margin-bottom: 30px;
+}
+
+.ulasan-item h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.ulasan-item user-info {
+  font-size: 1.3rem;
+  color: var(--ligth-black);
+  margin-bottom: 20px;
+
+}
+
+.rating-wrapper * {
+  color : #FFD700;
+  margin-right: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  margin-top :30px;
+}

@@ -1,0 +1,245 @@
+#jumbotron,
+.bundle-wrapper {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  align-items: center;
+}
+
+.bundle-wrapper.reverse {
+  justify-content: space-between;
+}
+
+#jumbotron .jumbotron-image-wrapper,
+#bundle-list .bundle-image-wrapper {
+  position: relative;
+}
+
+#jumbotron .jumbotron-image-wrapper img,
+#bundle-list .bundle-image-wrapper img {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: block;
+}
+
+#jumbotron .jumbotron-image-wrapper .overlay,
+#bundle-list .bundle-image-wrapper .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+  opacity: .4;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#jumbotron .jumbotron-content,
+#bundle-list .bundle-content {
+  margin-left: 60px;
+}
+
+
+
+#jumbotron .jumbotron-content .title-wisata,
+#bundle-list .bundle-content .title-wisata {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#jumbotron .jumbotron-content .location {
+  font-size: 1rem;
+  color: var(--black);
+  margin-bottom: 15px;
+}
+
+#jumbotron .jumbotron-content h3 {
+  font-size: 1.5rem;
+  color: var(--black);
+  margin-bottom: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+#jumbotron .jumbotron-content .btn-primary,
+#bundle-list .bundle-content .btn-primary {
+  margin-top: 20px;
+}
+
+#gallery h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#gallery .gallery-lists {
+  display: flex;
+}
+
+#gallery .gallery-lists .gallery-item {
+  flex: 1;
+  margin-right: 30px;
+}
+
+#gallery .gallery-lists .gallery-item  img {
+  width: 100%;
+}
+
+.feature {
+  margin-top: 90px;
+}
+
+.feature .aktivitas-wrapper,
+.feature .akses-fasilitas {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  margin-bottom: 30px;
+}
+
+.feature .akses-fasilitas  {
+  background-color: var(--secondary-color);
+  color: var(--light-black);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#rekomendasi-wisata  {
+  width: 100%;
+  margin-top: 90px;
+}
+
+#rekomendasi-wisata .title-section {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#rekomendasi-wisata .title-wrapper,
+#rekomendasi-wisata .list-wisata {
+  display: flex;
+}
+
+#rekomendasi-wisata .title-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#rekomendasi-wisata .title-wrapper a {
+  font-weight: 600;
+  transform: translateX(0);
+  transition: all .2s linear;
+}
+
+#rekomendasi-wisata .title-wrapper a:hover {
+  transform: translateX(10px);
+}
+
+#rekomendasi-wisata .list-wisata .item-wisata {
+  position: relative;
+}
+
+#rekomendasi-wisata .list-wisata .overlay,
+#rekomendasi-wisata .list-wisata img {
+    border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+#rekomendasi-wisata .list-wisata .item-wisata {
+  margin-right: 30px;
+  max-height: 210px;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all .2s linear;
+}
+
+#rekomendasi-wisata .list-wisata .item-wisata:hover {
+  transform: translateY(15px);
+}
+
+#rekomendasi-wisata .list-wisata .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.4);
+}
+
+#rekomendasi-wisata .list-wisata .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+#rekomendasi-wisata .list-wisata .info .location {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#cerita-pengunjung {
+  margin-top : 90px;
+}
+
+#cerita-pengunjung  .title-section {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+#cerita-pengunjung .cerita-wrapper {
+  margin-top : 75px;
+}
+
+
+#cerita-pengunjung .cerita-wrapper:first-child {
+    margin-top : 30px;
+}
+
+
+
+#cerita-pengunjung .title-cerita {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#cerita-pengunjung .description {
+  font-size: 1rem;
+}
+
+#cerita-pengunjung .nama {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#cerita-pengunjung .info-user {
+ font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+#cerita-pengunjung .btn-primary {
+  font-size: 1rem;
+}
+
+.main-img {
+  max-width: 500px;
+}

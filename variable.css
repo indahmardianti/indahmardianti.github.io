@@ -1,0 +1,7 @@
+:root {
+  --primary-color: #37AFE1;        /* Warna utama */
+  --secondary-color: #FADA7A;      /* Warna sekunder */
+  --real-black: #000000;           /* Warna teks */
+  --light-black: #505050;
+  --black: #303030;     /* Warna latar belakang */
+}

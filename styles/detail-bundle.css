@@ -1,0 +1,121 @@
+.wisata .head {
+  display: flex;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.wisata .head .title {
+  font-size: 3rem;
+}
+
+.wisata .head .location {
+  margin-left: 10px;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.wisata .gallery {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.wisata .gallery .main {
+  padding-right: 30px;
+  flex: 4;
+}
+
+.wisata .gallery .main img {
+  width: 100%;
+  height: 100%;
+}
+
+.wisata .gallery .side {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wisata .gallery .side img {
+  max-height: 45%;
+}
+
+.wisata .info-wisata h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.wisata .aktivitas-akses {
+  margin-top : 40px;
+  display: flex;
+}
+
+.wisata .aktivitas-akses .aktivitas-wrapper,
+.wisata .aktivitas-akses .akses-fasilitas {
+  padding: 2.5rem;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  flex: 1;
+}
+
+.wisata .aktivitas-akses .aktivitas-wrapper h4,
+.wisata .aktivitas-akses .akses-fasilitas  h4{
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.wisata .aktivitas-akses .akses-fasilitas {
+  background-color: var(--secondary-color);
+  color: var(--light-black);
+}
+
+.wisata .aktivitas-akses .aktivitas-wrapper {
+  margin-right: 30px;
+}
+
+#wisata-2 {
+  margin-top: 90px;
+}
+
+
+#cerita-list {
+  margin-top: 90px;
+}
+
+#cerita-list h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#cerita-list .cerita-item {
+  margin-bottom: 45px;
+}
+
+#cerita-list .cerita-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#cerita-list .info {
+  display: flex;
+}
+
+#cerita-list .info * {
+  margin-right: 15px;
+  color: var(--primary-color);
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#cerita-list .btn-primary {
+  margin-top: 40px;
+}

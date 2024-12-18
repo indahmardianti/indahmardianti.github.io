@@ -1,0 +1,265 @@
+#jumbotron,
+.bundle-wrapper {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  align-items: center;
+}
+
+.bundle-wrapper.reverse {
+  justify-content: space-between;
+}
+
+#jumbotron .jumbotron-image-wrapper,
+#bundle-list .bundle-image-wrapper {
+  position: relative;
+}
+
+#jumbotron .jumbotron-image-wrapper img,
+#bundle-list .bundle-image-wrapper img {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: block;
+}
+
+#jumbotron .jumbotron-image-wrapper .overlay,
+#bundle-list .bundle-image-wrapper .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+  opacity: .4;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#jumbotron .jumbotron-content,
+#bundle-list .bundle-content {
+  margin-left: 60px;
+}
+
+#jumbotron .jumbotron-content .trending,
+#bundle-list .bundle-content .trending {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+#jumbotron .jumbotron-content .info,
+#bundle-list .bundle-content  .info {
+  display: flex;
+    margin: 10px 0;
+}
+
+#jumbotron .jumbotron-content .info *,
+#bundle-list .bundle-content  .info *{
+  margin-right: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+#jumbotron .jumbotron-content .info-pengguna {
+  margin-top: 5px;
+}
+
+#jumbotron .jumbotron-content .title-wisata,
+#bundle-list .bundle-content .title-wisata {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#jumbotron .jumbotron-content .title-blog {
+    color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+#jumbotron .jumbotron-content .location-list,
+#bundle-list .bundle-content .location-list {
+  display: flex;
+}
+
+#jumbotron .jumbotron-content .location-list .location-item,
+#bundle-list .bundle-content .location-list .location-item {
+  padding : .3rem 2rem;
+  font-weight: 600;
+  color:white;
+  background-color: var(--secondary-color);
+  border-radius: 7px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+#jumbotron .jumbotron-content .btn-primary,
+#bundle-list .bundle-content .btn-primary {
+  margin-top: 20px;
+}
+
+#bundle-list .blog-lainnya {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#bundle-list .bundle-content .trending  {
+  font-size: 1rem;
+}
+
+#bundle-list .bundle-image-wrapper {
+  max-height: 318px;
+}
+
+#bundle-list .bundle-content .title-wisata {
+  font-size: 2rem;
+}
+
+
+
+#bundle-list .bundle-content .btn-primary .description {
+  font-size: .8rem;
+}
+
+#bundle-list .bundle-content .btn-primary  {
+  font-size: 1rem;
+}
+
+#bundle-list .bundle-wrapper.reverse .bundle-content {
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+#bundle-list .bundle-content .nama {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#rekomendasi-wisata  {
+  width: 100%;
+}
+
+#rekomendasi-wisata .title-section {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#rekomendasi-wisata .title-wrapper,
+#rekomendasi-wisata .list-wisata {
+  display: flex;
+}
+
+#rekomendasi-wisata .title-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#rekomendasi-wisata .title-wrapper a,
+#cerita-pengunjung .title-wrapper a {
+  font-weight: 600;
+  transform: translateX(0);
+  transition: all .2s linear;
+}
+
+#rekomendasi-wisata .title-wrapper a:hover {
+  transform: translateX(10px);
+}
+
+#rekomendasi-wisata .list-wisata .item-wisata {
+  position: relative;
+}
+
+#rekomendasi-wisata .list-wisata .overlay,
+#rekomendasi-wisata .list-wisata img {
+    border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+#rekomendasi-wisata .list-wisata .item-wisata {
+  margin-right: 30px;
+  max-height: 210px;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all .2s linear;
+}
+
+#rekomendasi-wisata .list-wisata .item-wisata:hover {
+  transform: translateY(15px);
+}
+
+#rekomendasi-wisata .list-wisata .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.4);
+}
+
+#rekomendasi-wisata .list-wisata .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+#rekomendasi-wisata .list-wisata .info .location {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#cerita-pengunjung {
+  margin-top : 90px;
+}
+
+#cerita-pengunjung .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cerita-pengunjung  .title-section {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#cerita-pengunjung .cerita-wrapper {
+  margin-top : 30px;
+}
+
+
+
+#cerita-pengunjung .title-cerita {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#cerita-pengunjung .description {
+  font-size: .8rem;
+}
+
+#cerita-pengunjung .nama {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#cerita-pengunjung .info-user {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+#cerita-pengunjung .btn-primary {
+  font-size: 1rem;
+}
